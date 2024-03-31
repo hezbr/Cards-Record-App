@@ -1,7 +1,6 @@
 # cards_record
 
-A new Flutter project.
-This Flutter project is intended for the general public who deal with cards of various types, to regulate their dealings with cards taken from various distributors, as well as debts for cards, installments, and other organizing various transactions with cards, whether network cards, credit cards, or others.
+A Flutter project is intended for the general public who deal with cards of various types, to regulate their dealings with cards taken from various distributors, as well as debts for cards, installments, and other organizing various transactions with cards, whether network cards, credit cards, or others.
 
 ## Getting Started
 
