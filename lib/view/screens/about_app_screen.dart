@@ -1,32 +1,6 @@
-import 'package:flutter/material.dart'
-    show
-        AppBar,
-        AssetImage,
-        BoxDecoration,
-        BoxFit,
-        BoxShape,
-        BuildContext,
-        Center,
-        Colors,
-        Column,
-        Container,
-        DecorationImage,
-        DefaultTextStyle,
-        EdgeInsets,
-        Icon,
-        Icons,
-        MainAxisAlignment,
-        Scaffold,
-        SingleChildScrollView,
-        StatelessWidget,
-        Text,
-        TextAlign,
-        TextButton,
-        TextDirection,
-        Widget;
-import 'package:flutter/src/widgets/basic.dart';
+import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:url_launcher/url_launcher.dart' show canLaunchUrl, launchUrl;
+import 'package:url_launcher/url_launcher.dart';
 
 import '../../components/main_drawer.dart';
 
@@ -121,7 +95,8 @@ class AboutAppScreen extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 20),
                 child: Text(
-                  "This application is intended for the general public who deal with cards of various types, to regulate their dealings with cards taken from various distributors, as well as debts for cards, installments, and other organizing various transactions with cards, whether network cards, credit cards, or others.".tr,
+                  "This application is intended for the general public who deal with cards of various types, to regulate their dealings with cards taken from various distributors, as well as debts for cards, installments, and other organizing various transactions with cards, whether network cards, credit cards, or others."
+                      .tr,
                   style: Get.textTheme.titleSmall!.copyWith(
                     color: Colors.black45,
                   ),

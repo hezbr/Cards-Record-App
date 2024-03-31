@@ -3,8 +3,7 @@ import 'package:get/get.dart';
 
 import '../../components/main_drawer.dart';
 import '../../controllers/distributors_controller.dart';
-import '../widgets/public_widget.dart'
-    show buildCancelElevatedButton, buildDialog;
+import '../widgets/public_widget.dart';
 
 class DistributorsScreen extends StatelessWidget {
   DistributorsScreen({super.key});

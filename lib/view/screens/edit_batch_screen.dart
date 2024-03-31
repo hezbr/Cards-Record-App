@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:cards_record/controllers/operations_controller.dart';
 import 'package:cards_record/core/app_functions.dart';
-import 'package:cards_record/models/app_Db.dart' show appDb, Batch_;
-import 'package:cards_record/view/widgets/public_widget.dart' show buildSnackbar;
+import 'package:cards_record/models/app_Db.dart';
+import 'package:cards_record/view/widgets/public_widget.dart';
 
 import '../../controllers/add_batch_controller.dart';
 import '../../controllers/batches_controller.dart';

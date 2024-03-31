@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:cards_record/controllers/categories_controller.dart';
-import 'package:cards_record/models/batch_model.dart';
 
 import '../widgets/category_items.dart';
 import '../widgets/public_widget.dart';

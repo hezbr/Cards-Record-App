@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart' show AppBar, BorderRadius, BuildContext, Card, Color, Colors, Column, Container, Divider, EdgeInsets, Expanded, Icon, IconButton, Icons, ListView, MainAxisAlignment, MediaQuery, RoundedRectangleBorder, Row, Scaffold, StatelessWidget, Text, TextAlign, Theme, Widget;
+import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:cards_record/core/app_functions.dart';
 
